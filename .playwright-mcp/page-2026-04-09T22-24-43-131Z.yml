@@ -1,0 +1,40 @@
+- generic [ref=e1]:
+    - banner [ref=e2]:
+        - generic [ref=e3]:
+            - link "NextNotes" [ref=e4] [cursor=pointer]:
+                - /url: /
+            - button "Sign out" [ref=e5]
+    - button "Open Next.js Dev Tools" [ref=e16] [cursor=pointer]:
+        - img [ref=e17]
+    - alert [ref=e20]: NextNotes
+    - main [ref=e104]:
+        - link "← Back to note" [ref=e105] [cursor=pointer]:
+            - /url: /notes/20029a58-f748-4ed9-8a82-cdcb4fe34060
+        - heading "Edit note" [level=1] [ref=e106]
+        - generic [ref=e107]:
+            - generic [ref=e108]:
+                - generic [ref=e109]: Title
+                - textbox "Title" [ref=e110]:
+                    - /placeholder: Note title
+                    - text: My Updated Test Note
+            - generic [ref=e111]:
+                - generic [ref=e112]: Content
+                - generic [ref=e113]:
+                    - toolbar "Text formatting" [ref=e114]:
+                        - button "B" [ref=e115]:
+                            - strong [ref=e116]: B
+                        - button "I" [ref=e117]:
+                            - emphasis [ref=e118]: I
+                        - button "H1" [ref=e120]
+                        - button "H2" [ref=e121]
+                        - button "H3" [ref=e122]
+                        - button "¶" [pressed] [ref=e123]
+                        - button "≡" [ref=e125]
+                        - button "<>" [ref=e127]
+                        - 'button "{ }" [ref=e128]'
+                        - button "—" [ref=e130]
+                    - textbox [active] [ref=e132]:
+                        - paragraph [ref=e133]: This is a test note with rich text.
+            - generic [ref=e134]:
+                - button "Save Changes" [ref=e135]
+                - button "Cancel" [ref=e136]

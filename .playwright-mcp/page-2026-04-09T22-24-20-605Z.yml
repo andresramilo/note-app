@@ -1,0 +1,22 @@
+- generic [active] [ref=e1]:
+    - banner [ref=e2]:
+        - generic [ref=e3]:
+            - link "NextNotes" [ref=e4] [cursor=pointer]:
+                - /url: /
+            - button "Sign out" [ref=e5]
+    - button "Open Next.js Dev Tools" [ref=e16] [cursor=pointer]:
+        - img [ref=e17]
+    - alert [ref=e20]: NextNotes
+    - main [ref=e88]:
+        - generic [ref=e89]:
+            - link "← My Notes" [ref=e90] [cursor=pointer]:
+                - /url: /
+            - generic [ref=e91]:
+                - link "Edit" [ref=e92] [cursor=pointer]:
+                    - /url: /notes/20029a58-f748-4ed9-8a82-cdcb4fe34060/edit
+                - button "Delete" [ref=e93]
+        - heading "My Test Note" [level=1] [ref=e94]
+        - generic [ref=e97]:
+            - generic [ref=e98]: Public sharing
+            - switch [ref=e99] [cursor=pointer]
+        - paragraph [ref=e103]: This is a test note with rich text.

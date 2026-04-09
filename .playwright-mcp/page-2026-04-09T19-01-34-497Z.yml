@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+    - banner [ref=e2]:
+        - link "NextNotes" [ref=e4] [cursor=pointer]:
+            - /url: /
+    - button "Open Next.js Dev Tools" [ref=e22] [cursor=pointer]:
+        - img [ref=e23]
+    - alert [ref=e26]
+    - main [ref=e27]:
+        - generic [ref=e28]:
+            - heading "My Notes" [level=1] [ref=e29]
+            - link "New Note" [ref=e30] [cursor=pointer]:
+                - /url: /notes/new
+        - paragraph [ref=e31]: No notes yet. Create your first note!

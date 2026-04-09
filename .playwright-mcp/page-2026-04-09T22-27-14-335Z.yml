@@ -1,0 +1,37 @@
+- generic [active] [ref=e1]:
+    - banner [ref=e2]:
+        - generic [ref=e3]:
+            - link "NextNotes" [ref=e4] [cursor=pointer]:
+                - /url: /
+            - button "Sign out" [ref=e5]
+    - button "Open Next.js Dev Tools" [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+    - alert [ref=e31]: New Note — NextNotes
+    - main [ref=e43]:
+        - link "← My Notes" [ref=e44] [cursor=pointer]:
+            - /url: /
+        - heading "New Note" [level=1] [ref=e45]
+        - generic [ref=e46]:
+            - generic [ref=e47]:
+                - generic [ref=e48]: Title
+                - textbox "Title" [ref=e49]:
+                    - /placeholder: Note title
+            - generic [ref=e50]:
+                - generic [ref=e51]: Content
+                - generic [ref=e52]:
+                    - toolbar "Text formatting" [ref=e53]:
+                        - button "B" [ref=e54]:
+                            - strong [ref=e55]: B
+                        - button "I" [ref=e56]:
+                            - emphasis [ref=e57]: I
+                        - button "H1" [ref=e59]
+                        - button "H2" [ref=e60]
+                        - button "H3" [ref=e61]
+                        - button "¶" [pressed] [ref=e62]
+                        - button "≡" [ref=e64]
+                        - button "<>" [ref=e66]
+                        - 'button "{ }" [ref=e67]'
+                        - button "—" [ref=e69]
+                    - textbox [ref=e71]:
+                        - paragraph [ref=e72]
+            - button "Save Note" [ref=e73]

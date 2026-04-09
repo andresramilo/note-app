@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+    - banner [ref=e2]:
+        - generic [ref=e3]:
+            - link "NextNotes" [ref=e4] [cursor=pointer]:
+                - /url: /
+            - button "Sign out" [ref=e5]
+    - main [ref=e6]:
+        - heading "My First Note (Updated)" [level=1] [ref=e7]
+        - paragraph [ref=e10]: This is my first note with some content.
+    - button "Open Next.js Dev Tools" [ref=e16] [cursor=pointer]:
+        - img [ref=e17]
+    - alert [ref=e20]

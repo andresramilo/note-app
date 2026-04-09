@@ -1,0 +1,42 @@
+- generic [ref=e1]:
+    - banner [ref=e2]:
+        - generic [ref=e3]:
+            - link "NextNotes" [ref=e4] [cursor=pointer]:
+                - /url: /
+            - button "Sign out" [ref=e5]
+    - main [ref=e6]:
+        - link "← Back to note" [ref=e7] [cursor=pointer]:
+            - /url: /notes/49575ea0-2446-43fd-904e-89c1b770b549
+        - heading "Edit note" [level=1] [ref=e8]
+        - generic [ref=e9]:
+            - generic [ref=e10]:
+                - generic [ref=e11]: Title
+                - textbox "Title" [ref=e12]:
+                    - /placeholder: Note title
+                    - text: My First Note (Updated)
+            - generic [ref=e13]:
+                - generic [ref=e14]: Content
+                - generic [ref=e15]:
+                    - toolbar "Text formatting" [ref=e16]:
+                        - button "B" [ref=e17]:
+                            - strong [ref=e18]: B
+                        - button "I" [ref=e19]:
+                            - emphasis [ref=e20]: I
+                        - button "H1" [ref=e22]
+                        - button "H2" [ref=e23]
+                        - button "H3" [ref=e24]
+                        - button "¶" [pressed] [ref=e25]
+                        - button "≡" [ref=e27]
+                        - button "<>" [ref=e29]
+                        - 'button "{ }" [ref=e30]'
+                        - button "—" [ref=e32]
+                    - textbox [active] [ref=e34]:
+                        - paragraph [ref=e35]:
+                            - strong [ref=e49]: This is my first note with some content.
+                        - paragraph [ref=e50]
+            - generic [ref=e36]:
+                - button "Save Changes" [ref=e37]
+                - button "Cancel" [ref=e38]
+    - button "Open Next.js Dev Tools" [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+    - alert [ref=e48]

@@ -1,0 +1,22 @@
+- generic [active] [ref=e1]:
+    - banner [ref=e2]:
+        - generic [ref=e3]:
+            - link "NextNotes" [ref=e4] [cursor=pointer]:
+                - /url: /
+            - button "Sign out" [ref=e5]
+    - button "Open Next.js Dev Tools" [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+    - alert [ref=e48]
+    - main [ref=e95]:
+        - generic [ref=e96]:
+            - heading "Sign in" [level=1] [ref=e97]
+            - generic [ref=e98]:
+                - generic [ref=e99]:
+                    - generic [ref=e100]: Email
+                    - textbox "Email" [ref=e101]
+                - generic [ref=e102]:
+                    - generic [ref=e103]: Password
+                    - textbox "Password" [ref=e104]
+                - button "Sign in" [ref=e105]
+                - link "Don't have an account? Sign up" [ref=e106] [cursor=pointer]:
+                    - /url: /authenticate?mode=signup

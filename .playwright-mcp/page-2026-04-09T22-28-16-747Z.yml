@@ -1,0 +1,20 @@
+- generic [active] [ref=e1]:
+    - banner [ref=e2]:
+        - generic [ref=e3]:
+            - link "NextNotes" [ref=e4] [cursor=pointer]:
+                - /url: /
+            - button "Sign out" [ref=e5]
+    - button "Open Next.js Dev Tools" [ref=e20] [cursor=pointer]:
+        - img [ref=e21]
+    - alert [ref=e24]
+    - main [ref=e37]:
+        - generic [ref=e38]:
+            - heading "My Notes" [level=1] [ref=e39]
+            - link "New Note" [ref=e40] [cursor=pointer]:
+                - /url: /notes/new
+        - list [ref=e41]:
+            - listitem [ref=e42]:
+                - link "Shopping List Apr 9, 2026" [ref=e43] [cursor=pointer]:
+                    - /url: /notes/0a2d2377-dd94-4025-ae38-95ba4005ac71
+                    - generic [ref=e44]: Shopping List
+                    - generic [ref=e45]: Apr 9, 2026

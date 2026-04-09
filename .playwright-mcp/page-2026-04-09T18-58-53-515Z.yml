@@ -1,0 +1,22 @@
+- generic [active] [ref=e1]:
+    - banner [ref=e2]:
+        - generic [ref=e3]:
+            - link "NextNotes" [ref=e4] [cursor=pointer]:
+                - /url: /
+            - button "Sign out" [ref=e5]
+    - main [ref=e6]:
+        - generic [ref=e7]:
+            - link "← My Notes" [ref=e8] [cursor=pointer]:
+                - /url: /
+            - generic [ref=e9]:
+                - link "Edit" [ref=e10] [cursor=pointer]:
+                    - /url: /notes/49575ea0-2446-43fd-904e-89c1b770b549/edit
+                - button "Delete" [ref=e11]
+        - heading "My First Note (Updated)" [level=1] [ref=e12]
+        - generic [ref=e15]:
+            - generic [ref=e16]: Public sharing
+            - switch [ref=e17] [cursor=pointer]
+        - paragraph [ref=e21]: This is my first note with some content.
+    - button "Open Next.js Dev Tools" [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+    - alert [ref=e31]

@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+    - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+    - banner [ref=e11]:
+        - generic [ref=e12]:
+            - link "NextNotes" [ref=e13] [cursor=pointer]:
+                - /url: /
+            - button "Sign out" [ref=e14]
+    - generic [ref=e16]:
+        - heading "404" [level=1] [ref=e17]
+        - heading "This page could not be found." [level=2] [ref=e19]
+    - alert [ref=e20]

@@ -1,0 +1,22 @@
+- generic [active] [ref=e1]:
+    - banner [ref=e2]:
+        - generic [ref=e3]:
+            - link "NextNotes" [ref=e4] [cursor=pointer]:
+                - /url: /
+            - button "Sign out" [ref=e5]
+    - button "Open Next.js Dev Tools" [ref=e16] [cursor=pointer]:
+        - img [ref=e17]
+    - alert [ref=e20]: NextNotes
+    - main [ref=e141]:
+        - generic [ref=e142]:
+            - link "← My Notes" [ref=e143] [cursor=pointer]:
+                - /url: /
+            - generic [ref=e144]:
+                - link "Edit" [ref=e145] [cursor=pointer]:
+                    - /url: /notes/20029a58-f748-4ed9-8a82-cdcb4fe34060/edit
+                - button "Delete" [ref=e146]
+        - heading "My Updated Test Note" [level=1] [ref=e147]
+        - generic [ref=e150]:
+            - generic [ref=e151]: Public sharing
+            - switch [ref=e152] [cursor=pointer]
+        - paragraph [ref=e156]: A Big Heading

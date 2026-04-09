@@ -1,0 +1,37 @@
+- generic [ref=e1]:
+    - banner [ref=e2]:
+        - generic [ref=e3]:
+            - link "NextNotes" [ref=e4] [cursor=pointer]:
+                - /url: /
+            - button "Sign out" [ref=e5]
+    - button "Open Next.js Dev Tools" [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+    - alert [ref=e48]
+    - main [ref=e60]:
+        - generic [ref=e61]:
+            - link "← My Notes" [ref=e62] [cursor=pointer]:
+                - /url: /
+            - generic [ref=e63]:
+                - link "Edit" [ref=e64] [cursor=pointer]:
+                    - /url: /notes/49575ea0-2446-43fd-904e-89c1b770b549/edit
+                - button "Delete" [ref=e65]
+                - dialog [ref=e84]:
+                    - heading "Delete note?" [level=2] [ref=e85]
+                    - paragraph [ref=e86]: This action cannot be undone. The note will be permanently deleted.
+                    - generic [ref=e87]:
+                        - button "Cancel" [active] [ref=e88]
+                        - button "Delete" [ref=e89]
+        - heading "My First Note (Updated)" [level=1] [ref=e66]
+        - generic [ref=e69]:
+            - generic [ref=e70]: Public sharing
+            - switch [ref=e71] [cursor=pointer]
+        - generic [ref=e74]:
+            - paragraph [ref=e75]:
+                - strong [ref=e77]: This is my first note with some content.
+            - heading "Section Heading" [level=1] [ref=e78]
+            - list [ref=e79]:
+                - listitem [ref=e80]:
+                    - paragraph [ref=e81]
+            - generic [ref=e82]:
+                - code
+            - paragraph [ref=e83]

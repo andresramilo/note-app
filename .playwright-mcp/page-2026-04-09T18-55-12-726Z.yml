@@ -1,0 +1,23 @@
+- generic [ref=e1]:
+    - banner [ref=e2]:
+        - link "NextNotes" [ref=e4] [cursor=pointer]:
+            - /url: /
+    - main [ref=e5]:
+        - generic [ref=e6]:
+            - heading "Create an account" [level=1] [ref=e27]
+            - generic [ref=e8]:
+                - generic [ref=e28]:
+                    - generic [ref=e29]: Name
+                    - textbox "Name" [ref=e30]
+                - generic [ref=e9]:
+                    - generic [ref=e10]: Email
+                    - textbox "Email" [ref=e11]
+                - generic [ref=e12]:
+                    - generic [ref=e13]: Password
+                    - textbox "Password" [ref=e14]
+                - button "Create account" [ref=e31]
+                - link "Already have an account? Sign in" [active] [ref=e32] [cursor=pointer]:
+                    - /url: /authenticate
+    - button "Open Next.js Dev Tools" [ref=e22] [cursor=pointer]:
+        - img [ref=e23]
+    - alert [ref=e26]
