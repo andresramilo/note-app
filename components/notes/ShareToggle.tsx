@@ -48,7 +48,7 @@ export function ShareToggle({ noteId, initialIsPublic, initialSlug }: Props) {
           aria-checked={isPublic}
           onClick={toggle}
           disabled={isPending}
-          className={`relative inline-flex h-5 w-9 shrink-0 cursor-pointer items-center rounded-full transition-colors disabled:opacity-50 ${isPublic ? 'bg-neutral-900' : 'bg-neutral-300'}`}
+          className={`relative inline-flex h-5 w-9 shrink-0 cursor-pointer items-center rounded-full transition-colors disabled:opacity-50 ${isPublic ? 'bg-blue-600' : 'bg-blue-300'}`}
         >
           <span
             className={`inline-block h-3.5 w-3.5 rounded-full bg-white shadow transition-transform ${isPublic ? 'translate-x-4.5' : 'translate-x-0.5'}`}
@@ -66,7 +66,7 @@ export function ShareToggle({ noteId, initialIsPublic, initialSlug }: Props) {
           <button
             type='button'
             onClick={copyLink}
-            className='shrink-0 rounded border border-neutral-200 px-2 py-1 text-xs text-neutral-600 transition-colors hover:bg-neutral-100'
+            className='shrink-0 rounded border border-blue-200 px-2 py-1 text-xs text-blue-600 transition-colors hover:bg-blue-100'
           >
             {copied ? 'Copied!' : 'Copy'}
           </button>

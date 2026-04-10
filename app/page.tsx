@@ -17,7 +17,7 @@ export default async function Home() {
         <h1 className='text-2xl font-semibold text-neutral-900'>My Notes</h1>
         <Link
           href='/notes/new'
-          className='rounded-lg bg-neutral-900 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-neutral-700'
+          className='rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-700'
         >
           New Note
         </Link>

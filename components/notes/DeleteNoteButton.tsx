@@ -27,7 +27,7 @@ export function DeleteNoteButton({ noteId }: { noteId: string }) {
     <>
       <button
         onClick={openDialog}
-        className='rounded-lg border border-red-200 px-4 py-2 text-sm font-medium text-red-600 transition-colors hover:bg-red-50'
+        className='rounded-lg border border-blue-200 px-4 py-2 text-sm font-medium text-blue-600 transition-colors hover:bg-blue-50'
       >
         Delete
       </button>
@@ -44,14 +44,14 @@ export function DeleteNoteButton({ noteId }: { noteId: string }) {
           <button
             onClick={closeDialog}
             disabled={isPending}
-            className='rounded-lg border border-neutral-200 px-4 py-2 text-sm font-medium text-neutral-700 transition-colors hover:bg-neutral-50 disabled:opacity-50'
+            className='rounded-lg border border-blue-200 px-4 py-2 text-sm font-medium text-blue-700 transition-colors hover:bg-blue-50 disabled:opacity-50'
           >
             Cancel
           </button>
           <button
             onClick={handleDelete}
             disabled={isPending}
-            className='rounded-lg bg-red-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-red-700 disabled:cursor-not-allowed disabled:opacity-50'
+            className='rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-50'
           >
             {isPending ? 'Deleting…' : 'Delete'}
           </button>
